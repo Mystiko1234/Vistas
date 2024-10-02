@@ -1,0 +1,90 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/main"
+    android:gravity="center"
+    android:background="#F9F9E5"
+    android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/rayzcircular"
+            android:layout_gravity="center" />
+
+        <TextView
+            android:id="@+id/app_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rayz"
+            android:textColor="#d3421c"
+            android:textSize="32sp"
+            android:textStyle="bold"
+            android:layout_marginTop="8dp"
+            android:layout_gravity="center" />
+
+        <TextView
+            android:id="@+id/control_dispositivos_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Control de dispositivos"
+            android:textColor="#000000"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"
+            android:layout_gravity="center" />
+
+        <Button
+            android:id="@+id/btn_seleccionar_dispositivo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Seleccionar dispositivo"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="@color/amarillo"
+            android:layout_marginTop="16dp"
+            android:padding="12dp" />
+
+        <Button
+            android:id="@+id/btn_conectar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Conectar"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="@color/amarillo"
+            android:layout_marginTop="8dp"
+            android:padding="12dp" />
+
+        <Button
+            android:id="@+id/btn_desconectar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Desconectar"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="@color/amarillo"
+            android:layout_marginTop="8dp"
+            android:padding="12dp" />
+
+        <Button
+            android:id="@+id/btn_ir_menu_principal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ir a menu principal"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#FFC107"
+            android:layout_marginTop="8dp"
+            android:padding="12dp" />
+
+        <Button
+            android:id="@+id/btn_volver_inicio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Volver al inicio de sesión"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="@color/black"
+            android:layout_marginTop="16dp"
+            android:padding="12dp" />
+
+    </LinearLayout>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:id="@+id/main"
+    android:background="#F9F9E5"
+    android:padding="16dp">
+
+<ImageView
+android:id="@+id/logo"
+android:layout_width="150dp"
+android:layout_height="150dp"
+android:src="@drawable/rayzcircular"
+    android:layout_gravity="center"/>
+
+<TextView
+android:id="@+id/app_name"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Rayz"
+android:textColor="#d3421c"
+android:textSize="32sp"
+android:textStyle="bold"
+android:layout_marginTop="8dp"
+android:layout_gravity="center"/>
+
+<TextView
+android:id="@+id/registro_usuario_title"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Registro de usuario"
+android:textColor="#000000"
+android:textSize="24sp"
+android:textStyle="bold"
+android:layout_marginTop="16dp"
+android:layout_gravity="center"/>
+
+<EditText
+android:id="@+id/username"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:hint="Nombre de usuario"
+android:padding="12dp"
+android:layout_marginTop="16dp"
+android:background="@color/white"
+android:textColorHint="#808080"/>
+
+<EditText
+android:id="@+id/email"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:hint="Correo electronico"
+android:padding="12dp"
+android:layout_marginTop="8dp"
+android:background="@color/white"
+android:inputType="textEmailAddress"
+android:textColorHint="#808080"/>
+
+<EditText
+android:id="@+id/password"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:hint="Contraseña"
+android:padding="12dp"
+android:layout_marginTop="8dp"
+android:inputType="textPassword"
+android:background="@color/white"
+android:textColorHint="#808080"/>
+
+<EditText
+android:id="@+id/confirm_password"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:hint="Confirmar contraseña"
+android:padding="12dp"
+android:layout_marginTop="8dp"
+android:inputType="textPassword"
+android:background="@color/white"
+android:textColorHint="#808080"/>
+
+
+<Button
+android:id="@+id/btn_register"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:text="Registrarse"
+android:textColor="#FFFFFF"
+android:backgroundTint="@color/amarillo"
+    android:layout_marginTop="16dp"
+    android:padding="12dp"
+    android:textStyle="bold"/>
+
+<Button
+android:id="@+id/btn_back_to_login"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:text="Volver al inicio de sesión"
+android:textColor="#FFFFFF"
+android:backgroundTint="#B8A5C9"
+    android:layout_marginTop="8dp"
+    android:padding="12dp"/>
+
+    </LinearLayout>

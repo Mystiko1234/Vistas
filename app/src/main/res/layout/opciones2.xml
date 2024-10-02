@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:id="@+id/main"
+    android:background="#F9F9E5"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/rayzcircular"
+        android:layout_gravity="center" />
+
+    <TextView
+        android:id="@+id/app_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rayz"
+        android:textColor="#d3421c"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:layout_marginTop="8dp"
+        android:layout_gravity="center" />
+
+    <TextView
+        android:id="@+id/menu_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Menu"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp"
+        android:layout_gravity="center" />
+
+    <Button
+        android:id="@+id/btn_ajustar_brillo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ajustar brillo"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="@color/amarillo"
+        android:layout_marginTop="16dp"
+        android:padding="12dp" />
+
+    <SeekBar
+        android:id="@+id/seekBarbrillo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="100"
+        android:layout_marginTop="8dp"
+        android:progress="50" />
+
+    <Button
+        android:id="@+id/btncambiar_color"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="cambiar color"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="@color/amarillo"
+        android:layout_marginTop="8dp"
+        android:padding="12dp" />
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:padding="5dp">
+
+        <!-- Cuadro de color rojo -->
+        <View
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="8dp"
+            android:background="#FF0000" />
+
+        <!-- Cuadro de color verde -->
+        <View
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="8dp"
+            android:background="#00FF00" />
+
+        <!-- Cuadro de color azul -->
+        <View
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="8dp"
+            android:background="#0000FF" />
+
+        <!-- Cuadro de color amarillo -->
+        <View
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="8dp"
+            android:background="#FFFF00" />
+
+        <!-- Cuadro de color cian -->
+        <View
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="8dp"
+            android:background="#00FFFF" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_aplicar_color"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="aplicar color"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#4CAF50"
+        android:layout_marginTop="8dp"
+        android:padding="12dp" />
+
+    <Button
+        android:id="@+id/btn_temporizador"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="temporizador"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="@color/amarillo"
+        android:layout_marginTop="8dp"
+        android:padding="12dp" />
+
+    <SeekBar
+        android:id="@+id/seektemporizador"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="100"
+        android:layout_marginTop="8dp"
+        android:progress="10" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Control Manual"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="#FF0000"
+        />
+
+    <Button
+        android:id="@+id/btnvolveatras"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="volver atras"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#B8A5C9"
+        android:layout_marginTop="16dp"
+        android:padding="12dp" />
+
+</LinearLayout>
